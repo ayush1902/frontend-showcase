@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Work | Mayank Sharma</title>
+	<style>
+		ul p {
+			padding: 13px 0 13px 0;
+			font-weight: bold;
+			font-size: 16px;
+			text-align: center;
+			color: #fff;
+		}
+		li.card {
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    		text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header class="cd-header">
+		<h1 style="font-weight: bold; font-size:27px;">Research Work and Projects</h1>
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".research"><a href="#0" data-type="research">UX Research</a></li>
+					<li class="filter" data-filter=".design"><a href="#0" data-type="design">UX Design</a></li>
+					<li class="filter" data-filter=".facilitation"><a href="#0" data-type="facilitation">Facilitation</a></li>
+					<li class="filter" data-filter=".strategy"><a href="#0" data-type="strategy">Strategy</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul class="projects-list">
+				<li class="card mix research check1 radio2 option3"><img src="img/img-1.jpg" alt="Image 1"><p>Design Challenges for Autism</p></li>
+				<li class="card mix design check2 radio2 option2"><img src="img/img-2.jpg" alt="Image 2"><p>Content Strategy at Chalopadho</p></li>
+				<li class="card mix facilitation check3 radio3 option1"><img src="img/img-3.png" alt="Image 3"><p>Information Challenge'16</p></li>
+				<li class="card mix strategy check3 radio2 option4"><img src="img/img-4.jpg" alt="Image 4"><p>Design Jam at Deloitte</p></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+	</main>
+	<p style="color:#fff; font-size:15px; text-align:center; padding: 30px;">&copy;Mayank Sharma. All Rights Reserved.</p> <!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/filter.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
