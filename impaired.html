@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Work | Programming challenges for Visually Impaired</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		body {
+			font-family: Quicksand;
+		}
+
+	</style>
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<a href="filter.html" style="font-size: 16px;" class="title">< Back to Projects</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">About </a></li>
+						<li><a href="index.html#one" class="active">WORK</a></li>
+						<li><a href="index.html#three">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Programming Challenges for visually impaired</h1>
+
+							<p>This research project marked my entry into the field of accessibility. We had to conduct interviews with visually impaired programmers, take surveys, contact people from online mailing lists. We asked the same open-ended questions to our users - “What are some of the challenges you encounter while programming?” The design problem here was how can we improve the programming workflow of visually impaired programmers. The project had many challenges - one of which included keeping things into mind while doing user research with visually impaired users. This project was outcome of wealth of knowledge imparted by Professor Joyojeet Pal in his class “Technology and Accessibility”.</p>
+							
+							<h3>Research Questions</h3>
+							<p>Our problem addressed the following research questions:</p>
+							<ol>
+								<li>What challenges do people with visual impairment face while doing programming?</li>
+								<li>How can we improve the programming workflow of people with visual impairments?</li>
+								<li>What are some issues with existing softwares/IDE’s with regard to accessibility? </li>
+							</ol>
+						
+							<hr>
+							<h3>Approach</h3>
+							<p>We conducted user interviews with expert programmers who were visually impaired. We also conducted surveys. After that we analysed the issues and needs in the form of affinity wall. We then came up with some design proposals and identified challenges in implementing those solutions. </p>
+
+							<h3>User Interviews and Surveys</h3>
+							<p>We conducted interviews with expert programmers who were visually impaired. One of them was Screen Reader expert, and other was a Professor. We used “think aloud protocol while conducting interviews. Conducting contextual inquiry with visually impaired was different from that of sighted users. We had to keep certain things in mind like -  </p>
+							<ul>
+								<li>Asking consistently through interaction</li>
+								<li>Addressing individuals, not assistants</li>
+								<li>Informing about entrance and exit.</li>
+								<li>Offering elbow as a guide</li>
+								<li>Having blind participants bring their own devices</li>
+								<li>Spoon theory - Their time is valuable and we should appreciate them for taking part in the study. </li>
+							</ul>
+							<h3>Researched Principles for Learning Experience Design</h3>
+							<p>As my interest in interaction design grew, I researched and collaborated with developers to make several enhancements in the learning experience.</p>
+							<ul>
+								<li>Using relevant graphics and texts.</li>
+								<li>Using animations and interactive simulations for physical procedure.</li>
+								<li>Breaking complex information into chunks.</li>
+								<li>Learning in a real world context.</li>
+								<li>Informative Feedback</li>
+								<li>Using mind-maps</li>
+							</ul>
+
+							<span class="image fit">
+							<img style="width: 60%; height:30%; margin: 0 auto;" src="images/impaired1.png" alt="">
+							<h5 style="font-style: italic; text-align:center; font-weight: normal; margin-top: 10px;">User demonstrating guess the number program in python while thinking aloud</h5>
+							</span>
+							<br>
+							<hr>
+						<h3>Analysis of User Needs</h3>
+							<p>For analyzing user needs, we gathered in data from interviews, surveys and online mailing lists in a form of affinity diagram. </p>
+							<span class="image fit">
+							<img style="width: 60%; height:30%; margin: 0 auto;" src="images/impaired2.png" alt="">
+							<br>
+							<span class="image fit">
+							<img style="width: 60%; height:30%; margin: 0 auto;" src="images/impaired3.png" alt="">	
+							<br>
+							<span class="image fit">
+							<img style="width: 60%; height:30%; margin: 0 auto;" src="images/impaired4.png" alt="">									
+							<hr>
+							<p>Some of the recurring issues we found out while conducting interviews and surveys were related to 2 main areas - code navigation and indentation feedback. </p>				
+							<div style="font-style:italic; color: white;">
+								<blockquote>“[B02] With my setup, JAWS will not announce tabs, unless I navigate by characters.”</blockquote>
+								<blockquote>“[B01] If I have a block of code indented 3 levels deep, screen readers will never alert the user of the fact.”</blockquote>
+								<blockquote>“[B01] Announcing indentation as 'tab tab tab' can get very annoying and slow a person down.”</blockquote>
+								<blockquote>“[B03] I don’t know whether else statement is a part of previous chain of “ifs” or whether it is referring to the big block”</blockquote>
+							</div>
+							<hr>
+							<h3>Our Proposal</h3>
+							<p>By identifying patterns from our user research, we found that main issues were related to improper feedback of screen reader in the indentation and unable to navigate code (where am I problem). We proposed a design solution for each problem. </p>
+							<div style="text-align: justify;" class="method">
+							<p><span class="image left"><img src="images/impaired5.png" alt="" /></span><span style="font-weight: bold;color:#fff;">Sounds of varying frequencies for navigation:</span> <br>We tried using sounds like “beep” with different frequencies and the sounds like “indent 1,2,..”. Each sound represented the distance of the line from the code. . </p>
+<br><br><br><br><br><br>
+							<p><span class="image right"><img src="images/impaired6.png" alt="" /></span><span style="font-weight: bold;color:#fff;">Content Mapping</span> <br>After conducting interviews, we found that for most of the general tasks, like email/file general navigation, they used a tree like file structure which helps him map the content on the screen. Taking advantage of this habit, we thought of a similar navigation style in code.  </p>
+							<hr>
+							<h3>Further Research and Feedback</h3>
+							<p>Further research can be done by analyzing the preferences of different types of sound combinations - (Beeps), (TAB TAB TAB) (Indent 1, Indent 2...and so on). Also, the sound idea didn’t suit to everyone’s style. Some people had habit of memorizing code and they wanted to stick to that way. Due to limitation in time, we were able to interview 3 people and survey 7 people. With more time and resources, more comprehensive research can be done in future. Also, our solution to sound was suitable for users programming in python, which relies on indentation heavily. </p>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
